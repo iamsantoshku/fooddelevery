@@ -1,0 +1,248 @@
+/* General Styles */
+.container {
+    width: 80vw;
+    height: 280px;
+    padding: 80px 0px 24px 0px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    gap: 0px;
+    opacity: 1;
+}
+
+.ico {
+    display: flex;
+    gap: 4px;
+    margin-top: -2vw;
+}
+
+.icon3 {
+    color: azure;
+    font-size: 30px;
+    display: flex;
+    cursor: pointer;
+}
+
+h3, h4, h6 {
+    color: aliceblue;
+}
+
+.data1 i {
+    color: rgb(240, 119, 119);
+    font-size: 20px;
+    margin-left: -2vw;
+}
+
+.data1 input {
+    margin-left: -0.6vw;
+    width: 7vw;
+}
+
+.img1 {
+    height: 60px;
+    width: 80px;
+    border-radius: 15px;
+}
+
+.img2 {
+    height: 30px;
+    width: 40px;
+    border-radius: 15px;
+    margin: 6px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.data1, .data2, .data3, .data4, .data5 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.data2 h3, .data3 h3, .data4 h3, .data5 h3, .data1 h3 {
+    color: white;
+}
+
+.data5 i {
+    color: white;
+    font-size: 30px;
+    margin: 6px;
+}
+
+.contain h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
+}
+
+.icon2 {
+    font-size: 68px;
+    margin-left: 38vw;
+    cursor: pointer;
+    color: tomato;
+}
+
+.icon2:hover {
+    color: rgb(238, 198, 40);
+}
+
+.contain h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+    font-size: 3vw;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .container {
+        height: auto;
+        padding: 40px 0px 20px 0px;
+    }
+    
+    .icon3 {
+        font-size: 25px;
+    }
+
+    .data1 input {
+        width: 6vw;
+    }
+    
+    .img1 {
+        height: 50px;
+        width: 70px;
+    }
+    
+    .img2 {
+        height: 25px;
+        width: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 10px;
+        width: 90vw;
+    }
+    .foot{
+        margin-top: 70vw;
+    }
+
+    .icon3 {
+        font-size: 22px;
+    }
+
+    .data1 input {
+        width: 80%;
+    }
+    
+    .img1 {
+        height: 45px;
+        width: 60px;
+    }
+    
+    .img2 {
+        height: 20px;
+        width: 30px;
+    }
+    
+    .contain h2 {
+        font-size: 4vw;
+    }
+    
+    .icon2 {
+        font-size: 50px;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px 5px;
+        width: 100%;
+        background-color: rgb(205, 56, 56);
+    }
+
+    .icon3 {
+        font-size: 18px;
+    }
+
+    .data1, .data2, .data3, .data4, .data5 {
+        gap: 8px;
+    }
+    
+    .data1 input {
+        width: 90%;
+    }
+
+    .img1 {
+        height: 40px;
+        width: 50px;
+    }
+
+    .img2 {
+        height: 18px;
+        width: 28px;
+    }
+
+    .contain h1, .contain h2 {
+        font-size: 5vw;
+        margin-top: 3vw;
+    }
+    
+    .icon2 {
+        font-size: 40px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        padding: 15px 5px;
+        justify-content: center;
+        text-align: center;
+        margin-top: 10vw;
+    }
+    .foot{
+        margin-top: 110vw;
+    }
+
+    .icon3 {
+        font-size: 16px;
+        margin-left: 5vw;
+    }
+    
+    .data1 input {
+        width: 100%;
+    }
+
+    .img1 {
+        height: 35px;
+        width: 45px;
+    }
+    
+    .img2 {
+        height: 16px;
+        width: 25px;
+    }
+
+    .contain h1  {
+        font-size: 6vw;
+        margin-left: 13vw;
+    }
+    .contain h2{
+
+    }
+
+    .icon2 {
+        font-size: 35px;
+        margin-left: 35vw;
+    }
+}

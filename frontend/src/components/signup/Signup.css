@@ -1,0 +1,201 @@
+.text{
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  background-color: white;
+  border: 1px solid skyblue;
+  border-radius: 0.2vw;
+  cursor: pointer;
+  height: 5vh;
+  margin-left: 5vw;
+  
+}
+.butt{
+  
+  width: 18vw;
+height: 2.3vw;
+background-color: #DB4444;
+border-radius: 6px;
+margin-left: 3vw;
+cursor: pointer;
+}
+.text-box{
+  margin-left: 150px;
+  height: 55vw;
+  width: 4vw;
+  /* background-color: antiquewhite; */
+  /* background-color: rgb(248, 252, 252); */
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  border-radius: 7px;
+}
+
+.text-box h1{
+margin-left: 4.6vw;
+}
+.text-box p{
+margin-left: 5.8vw;
+}
+.textp p{
+margin-left: 4.7vw;
+}
+.textp p{
+margin-top: 0vw;
+}
+.link p{
+margin-top: 2vw;
+}
+.text-box p{
+margin-top: 0vw;
+}
+input{
+height: 6vh;
+
+}
+.text-box i{
+margin-left: 4vw;
+margin-top: 3vw;
+font-size: 18px;
+
+}
+.sign{
+display: flex;
+height: 40vw;
+margin-top: 7vw;
+
+}
+.backimg img{
+height: 35vw;
+width: 45vw;
+border-radius: 20px
+;
+/* margin-left: 6vw; */
+}
+.cret1{
+width: 18vw;
+height: 2.3vw;
+background-color: red;
+border-radius: 6px;
+margin-left: 3vw;
+cursor: pointer;
+}
+.cret2{
+margin-top: 1vw;
+width: 18vw;
+height: 2.3vw;
+background-color: rgb(212, 208, 208);
+border-radius: 6px;
+margin-left: 3vw;
+cursor: pointer;
+
+} 
+@media (min-width: 1024px) {
+  .text-box {
+    width: 43%;
+    margin-left: 2vw;
+    height: 60vh;
+  }
+  input{
+    height: 3vw;
+    width: 10vw;
+  }
+
+  .butt, .cret1, .cret2 {
+    width: 73%;
+    padding: 0.8rem;
+  }
+
+  .sign {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+/* For Medium Devices (Tablets) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .text-box {
+    width: 40%;
+    margin-left: 1vw;
+    padding: 1.5rem;
+    margin-top: 0vw;
+    height: 50vh;
+    width: 80vw;
+  }
+
+  .butt, .cret1, .cret2 {
+    width: 60%;
+    padding: 1rem;
+  }
+
+  .sign {
+    margin-top: 2rem;
+  }
+}
+
+/* For Small Devices (Mobile Phones) */
+@media (max-width: 767px) {
+ 
+    .text-box {
+      width: 80%;
+      margin-left: -0vw;
+      padding: 1.5rem;
+      margin-top: 30vw;
+      height: 50vh;
+      width: 80vw;
+    }
+  
+
+  .butt, .cret1, .cret2 {
+    width: 90%;
+    padding: 0.6rem;
+  }
+
+  .sign {
+    margin-top: 1.5rem;
+  }
+
+  .text-box h1, .text-box p, .textp p, .link p {
+    font-size: 0.9rem;
+  }
+
+  .text-box i {
+    font-size: 0.8rem;
+  }
+}
+
+/* Extra Small Devices (Narrow Mobile Phones) */
+@media (max-width: 480px) {
+  .text-box {
+    width: 80%;
+    margin-left: -0vw;
+    padding: 1.5rem;
+    margin-top: 20vw;
+    height: 55vh;
+    width: 80vw;
+  }
+  .backimg img{
+    /* width: 0vw; */
+    /* height: 40vh; */
+    /* margin-left: 6vw; */
+    display: none;
+  }
+  .text{
+    height: 12vw;
+    margin-left: -1vw;
+  }
+
+  .butt, .cret1, .cret2 {
+    width: 95%;
+    padding: 0.5rem;
+    height: 10vw;
+    margin-left: 1vw;
+  }
+
+  .text-box h1, .text-box p, .textp p, .link p {
+    font-size: 1.5rem;
+  }
+
+  .text-box i {
+    font-size: 1rem;
+  }
+}
